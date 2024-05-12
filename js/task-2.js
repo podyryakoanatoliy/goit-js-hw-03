@@ -5,7 +5,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     for (i = 0; i <= maxLength; i++){
         newArray.push(fullArray[i]);
     }
-    return newArray[i];
+    return newArray;
 }
 
 
