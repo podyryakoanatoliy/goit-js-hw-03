@@ -2,7 +2,7 @@ function makeArray(firstArray, secondArray, maxLength) {
     let newArray = [];
     let fullArray = firstArray.concat(secondArray);
     
-    for (i = 0; i <= maxLength; i++){
+    for (i = 0; i < maxLength; i++){
         newArray.push(fullArray[i]);
     }
     return newArray;
